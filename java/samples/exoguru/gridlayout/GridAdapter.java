@@ -22,42 +22,42 @@ public class GridAdapter  extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
         mItems = new ArrayList<EndangeredItem>();
         EndangeredItem species = new EndangeredItem();
         species.setName("Big Night Pizza");
-        species.setThumbnail(R.drawable.pizza);
+        species.setThumbnail(R.drawable.bignightpizza);
         mItems.add(species);
 
         species = new EndangeredItem();
-        species.setName("Black Rhino");
-        species.setThumbnail(R.drawable.rhino);
+        species.setName("Berry Squares");
+        species.setThumbnail(R.drawable.blueberryoatmealsquares);
         mItems.add(species);
 
         species = new EndangeredItem();
-        species.setName("Orangutan");
-        species.setThumbnail(R.drawable.orangutan);
+        species.setName("Crock Pot Roast");
+        species.setThumbnail(R.drawable.crockpotroast);
         mItems.add(species);
 
         species = new EndangeredItem();
-        species.setName("Sea Lions");
-        species.setThumbnail(R.drawable.seali);
+        species.setName("Curried Lentils");
+        species.setThumbnail(R.drawable.curriedlentilsandrice);
         mItems.add(species);
 
         species = new EndangeredItem();
-        species.setName("Indian Elephant");
-        species.setThumbnail(R.drawable.elephant);
+        species.setName("York Shirepuds");
+        species.setThumbnail(R.drawable.micsyorkshirepuds);
         mItems.add(species);
 
         species = new EndangeredItem();
-        species.setName("Giant Panda");
-        species.setThumbnail(R.drawable.panda);
+        species.setName("Oatmeal Cookies");
+        species.setThumbnail(R.drawable.oldfashionedoatmealcookies);
         mItems.add(species);
 
         species = new EndangeredItem();
-        species.setName("Snow Leopard");
-        species.setThumbnail(R.drawable.snow);
+        species.setName("Asparagus");
+        species.setThumbnail(R.drawable.roastedasparagus);
         mItems.add(species);
 
         species = new EndangeredItem();
-        species.setName("Dolphin");
-        species.setThumbnail(R.drawable.dolph);
+        species.setName("Acai Rice");
+        species.setThumbnail(R.drawable.acairice);
         mItems.add(species);
     }
 
@@ -74,6 +74,8 @@ public class GridAdapter  extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
         EndangeredItem nature = mItems.get(i);
         viewHolder.tvspecies.setText(nature.getName());
         viewHolder.imgThumbnail.setImageResource(nature.getThumbnail());
+
+        
     }
 
     @Override
