@@ -21,8 +21,8 @@ public class GridAdapter  extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
         super();
         mItems = new ArrayList<EndangeredItem>();
         EndangeredItem species = new EndangeredItem();
-        species.setName("Amur Leopard");
-        species.setThumbnail(R.drawable.leopard);
+        species.setName("Big Night Pizza");
+        species.setThumbnail(R.drawable.pizza);
         mItems.add(species);
 
         species = new EndangeredItem();

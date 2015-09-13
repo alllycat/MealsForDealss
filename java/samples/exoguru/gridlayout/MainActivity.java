@@ -31,6 +31,7 @@ public class MainActivity extends ActionBarActivity {
         mAdapter = new GridAdapter();
         mRecyclerView.setAdapter(mAdapter);
 
+
     }
 
 
